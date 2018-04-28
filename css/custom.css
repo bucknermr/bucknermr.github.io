@@ -1,0 +1,15 @@
+.hero-img {
+  background-image: url("../img/portfolio/custom/hero.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navbar-custom {
+  background-color: rgba(44, 60, 80, 0.5);
+}
