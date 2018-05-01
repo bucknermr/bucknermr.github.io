@@ -13,3 +13,20 @@
 .navbar-custom {
   background-color: rgba(44, 60, 80, 0.5);
 }
+
+.skills {
+  display: inline-block;
+}
+.skills li {
+  list-style: none;
+  white-space: nowrap;
+  display: inline;
+}
+
+.skills li:after {
+  content: "\00a0\00a0\00b7\00a0"
+}
+
+.skills li:last-child:after {
+  content: none;
+}
