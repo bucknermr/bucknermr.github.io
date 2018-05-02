@@ -16,6 +16,7 @@
 
 .skills {
   display: inline-block;
+  padding: 0;
 }
 .skills li {
   list-style: none;
