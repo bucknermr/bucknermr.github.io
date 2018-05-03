@@ -11,7 +11,7 @@
 }
 
 .navbar-custom {
-  background-color: rgba(44, 60, 80, 0.5);
+  background-color: rgba(33, 49, 68, 0.85);
 }
 
 .dots-between {
@@ -38,4 +38,36 @@
 
 .portfolio-item-list {
   font-size: 18px;
+  margin: 0 5%;
+}
+
+[class^="hr-"] {
+  border-width: 3px;
+  width: 75px;
+}
+
+.hr-light {
+  border-color: #fff;
+}
+
+.hr-dark {
+  border-color: #2C3E50;
+}
+
+.hr-long {
+  width: 200px;
+}
+
+#about {
+  background-color: #011927;
+}
+
+#contact form input, #contact form textarea {
+  border: 1px solid #eee;
+  border-radius: 3px;
+  padding-left: 10px;
+}
+
+#contact form div {
+  border: 0;
 }

@@ -49,10 +49,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
@@ -64,21 +67,69 @@
 
     <!-- Header -->
     <header class="masthead text-white text-center hero-img">
-    <!-- <header class="masthead bg-primary text-white text-center hero-img"> -->
       <div class="container">
-        <!-- <img class="img-fluid mb-5 d-block mx-auto" src="img/profile.png" alt=""> -->
-        <h1 class="text-uppercase mb-0">Matthew Buckner</h1>
-        <!-- <hr class="star-light"> -->
-        <hr class="myhr">
-        <h2 class="font-weight-light mb-0">Software Engineer</h2>
+        <h1 class="text-uppercase mb-3">Matthew Buckner</h1>
+        <h2 class="font-weight-light mb-4">Software Engineer</h2>
       </div>
     </header>
 
-    <!-- Portfolio Grid Section -->
-    <section class="portfolio" id="portfolio">
+    <!-- About Section -->
+    <section class=" text-white mb-0" id="about">
       <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-        <hr class="star-dark mb-5">
+        <h2 class="text-center text-uppercase text-white">About</h2>
+        <hr class="hr-light mb-4 mt-4">
+        <div class="row">
+          <div class="col-lg-8 m-auto text-center">
+            <p class="lead">
+              My name is Matthew Buckner. I'm a software engineer based in Oakland, California specializing in backend and full-stack web development. I love the challenge of learning new technologies, and my current hobbies include Python, Machine Learning, and DevOps. I am also a jazz musician, and enjoy writing music, hiking, and climbing in my free time.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="bg-thirdary text-white mb-0" id="skills">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-white">Skills</h2>
+        <hr class="hr-light mb-4 mt-4">
+        <div class="row">
+          <div class="col-lg-8 m-auto text-center">
+            <ul class="lead dots-between">
+              <li>Ruby</li>
+              <li>Ruby on Rails</li>
+              <li>Javascript</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>React</li>
+              <li>Redux</li>
+              <li>SQL</li>
+              <li>PostgreSQL</li>
+              <li>AWS</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Sass</li>
+              <li>jQuery</li>
+              <li>RSpec</li>
+              <li>Jest</li>
+              <li>Git</li>
+            </ul>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <a class="btn btn-xl btn-outline-light" href="matthew_resume.pdf">
+            <i class="fa fa-download mr-2"></i>
+            Resume
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section class="portfolio bg-secondary" id="portfolio">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-white mb-0">Portfolio</h2>
+        <hr class="hr-light mb-4 mt-4">
         <div class="row">
           <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="https://www.soundstorm.me">
@@ -140,59 +191,11 @@
       </div>
     </section>
 
-    <!-- About Section -->
-    <section class="bg-primary text-white mb-0" id="about">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-white">Skills</h2>
-        <hr class="star-light mb-5">
-        <div class="row">
-
-          <!-- !!! -->
-
-          <!-- <div class="col-lg-4 ml-auto">
-            <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-          </div>
-          <div class="col-lg-4 mr-auto">
-            <p class="lead">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-          </div> -->
-
-          <!-- !!! -->
-          <div class="col-lg-8 m-auto text-center">
-            <ul class="lead dots-between">
-              <li>Ruby</li>
-              <li>Ruby on Rails</li>
-              <li>Javascript</li>
-              <li>Node.js</li>
-              <li>Express.js</li>
-              <li>React</li>
-              <li>Redux</li>
-              <li>SQL</li>
-              <li>PostgreSQL</li>
-              <li>AWS</li>
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>Sass</li>
-              <li>jQuery</li>
-              <li>RSpec</li>
-              <li>Jest</li>
-              <li>Git</li>
-            </ul>
-          </div>
-        </div>
-        <div class="text-center mt-4">
-          <a class="btn btn-xl btn-outline-light" href="matthew_resume.pdf" target="_blank">
-            <i class="fa fa-download mr-2"></i>
-            Resume
-          </a>
-        </div>
-      </div>
-    </section>
-
     <!-- Contact Section -->
     <section id="contact">
       <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-        <hr class="star-dark mb-5">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Get In Touch</h2>
+        <hr class="hr-dark">
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
@@ -249,24 +252,24 @@
             <h4 class="text-uppercase mb-4">Around the Web</h4>
             <ul class="list-inline mb-0">
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/bucknermr" target="_blank">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/bucknermr">
                   <i class="fa fa-github" aria-hidden="true"></i>
                   <p style="position: absolute; left: -300%;">Github</p>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/bucknermr/" target="_blank">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/bucknermr/">
                   <i class="fa fa-fw fa-linkedin"></i>
                   <p style="position: absolute; left: -300%;">LinkedIn</p>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://angel.co/matthew-buckner-2" target="_blank">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://angel.co/matthew-buckner-2">
                   <i class="fa fa-fw fa-angellist"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.facebook.com/matthew.buckner.545" target="_blank">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.facebook.com/matthew.buckner.545">
                   <i class="fa fa-fw fa-facebook"></i>
                 </a>
               </li>
