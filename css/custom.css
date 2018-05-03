@@ -14,20 +14,40 @@
   background-color: rgba(44, 60, 80, 0.5);
 }
 
-.skills {
+.dots-between {
   display: inline-block;
   padding: 0;
 }
-.skills li {
+.dots-between li {
   list-style: none;
   white-space: nowrap;
   display: inline;
 }
 
-.skills li:after {
-  content: "\00a0\00a0\00b7\00a0"
+.dots-between li:after {
+  content: "  ";
+  letter-spacing:1em;
+  background: url("../img/portfolio/custom/bullet.png") center center no-repeat;
+  background-size: .5em;
 }
 
-.skills li:last-child:after {
-  content: none;
+.project-links a {
+  padding: 0 25px;
 }
+
+.portfolio-item-list {
+  font-size: 18px;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+/* .project-links {
+  margin-top: 10px;
+  margin-right: 25px;
+} */
+
+/* .project-links a:first-child {
+  margin-right: 25px;
+} */

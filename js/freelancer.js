@@ -50,7 +50,7 @@
   $(window).scroll(navbarCollapse);
 
   // Modal popup$(function () {
-  $('.portfolio-item').magnificPopup({
+  $('.modal-popup').magnificPopup({
     type: 'inline',
     preloader: false,
     focus: '#username',
