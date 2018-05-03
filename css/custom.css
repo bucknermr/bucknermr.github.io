@@ -24,30 +24,18 @@
   display: inline;
 }
 
-.dots-between li:after {
-  content: "  ";
+.dots-between li::after {
   letter-spacing:1em;
   background: url("../img/portfolio/custom/bullet.png") center center no-repeat;
   background-size: .5em;
+  content: " ";
 }
 
-.project-links a {
-  padding: 0 25px;
+@media screen and (-webkit-min-device-pixel-ratio:0)
+  and (min-resolution:.001dpcm) {
+    .dots-between li::after { content: "  "; }
 }
 
 .portfolio-item-list {
   font-size: 18px;
 }
-
-.no-padding {
-  padding: 0 !important;
-}
-
-/* .project-links {
-  margin-top: 10px;
-  margin-right: 25px;
-} */
-
-/* .project-links a:first-child {
-  margin-right: 25px;
-} */
